@@ -9,5 +9,6 @@ public class SampleTest {
 	public void test_01()
 	{
 		Reporter.log("welcome",true);
+		System.out.println("added");
 	}
 }
