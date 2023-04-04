@@ -10,5 +10,8 @@ public class SampleTest {
 	{
 		Reporter.log("welcome",true);
 		System.out.println("added");
+				System.out.println("added");
+
+		
 	}
 }
