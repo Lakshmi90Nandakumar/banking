@@ -81,7 +81,7 @@
           <verbose>true</verbose>
           <fork>true</fork>
           <executable>${java.home}</executable>
-          <compilerVersion>1.8</compilerVersion>
+          <compilerVersion>11.0.17</compilerVersion>
         </configuration>
       </plugin>
 
@@ -132,7 +132,7 @@
   </profiles>
       
       <properties>
-          <java.home>C:\Program Files\Java\jdk1.8.0_291\bin\javac</java.home>
+          <java.home>C:\Program Files\Java\jdk-11.0.17\bin\javac</java.home>
         </properties>
 
   
