@@ -5,10 +5,11 @@ import org.testng.annotations.Test;
 
 public class SampleTest {
 
-	@Test(groups="regression")
+	@Test(groups="smoke")
 	public void test_01()
 	{
 		Reporter.log("welcome",true);
 		System.out.println("added again");
+		System.out.println("additional");
 	}
 }
