@@ -9,6 +9,7 @@ public class Example {
 	public void tst1()
 	{
 	System.out.println("Script 1");
+	System.out.println("script2");
 
 	}
 
