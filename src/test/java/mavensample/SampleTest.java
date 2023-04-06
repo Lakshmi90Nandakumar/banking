@@ -10,13 +10,11 @@ public class SampleTest {
 	{
 		Reporter.log("welcome",true);
 		System.out.println("added again");
-<<<<<<< HEAD
+
 		System.out.println("additional");
-=======
 		System.out.println("added");
 				System.out.println("added");
 
 		
->>>>>>> branch 'branchbank' of https://github.com/Lakshmi90Nandakumar/banking.git
 	}
 }
