@@ -1,9 +1,18 @@
 package mavensample;
 
+import org.testng.annotations.Test;
+
 public class Example1 {
 
-	public static void main(String[] args) {
+	@Test(groups="smoke")
+	public static void script1() {
 		System.out.println("Script 1");
+
+	}
+	
+	@Test(groups="regression")
+	public static void script2() {
+		System.out.println("Script 2");
 
 	}
 
