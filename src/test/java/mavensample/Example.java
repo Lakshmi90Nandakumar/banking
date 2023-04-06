@@ -1,9 +1,14 @@
 package mavensample;
 
+import org.testng.annotations.Test;
+
 public class Example {
 
-	public static void main(String[] args) {
-		System.out.println("Script 1");
+
+	@Test
+	public void tst1()
+	{
+	System.out.println("Script 1");
 
 	}
 
