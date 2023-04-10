@@ -1,9 +1,15 @@
 package mavensample;
 
+import org.testng.annotations.Test;
+
 public class Example3 {
 
-	public static void main(String[] args) {
-		System.out.println("dada");
+   @Test
+    public void test()
+    {
+	    System.out.println("dada");
+		String URL=System.getProperty("url");
+		System.out.println(URL);
 
 	}
 
